@@ -1,0 +1,10 @@
+root = true
+
+
+[*] # mostra que a configuração serve para todos os arquivos
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true # nos obriga a colocar espaço depois de símbolos
+insert_final_newline = true #finaliza o arquivo com uma linha em branco
