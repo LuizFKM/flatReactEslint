@@ -2,7 +2,6 @@ import globals from "globals";
 import pluginJs from "@eslint/js";
 import tseslint from "typescript-eslint";
 import react from "eslint-plugin-react";
-import eslint from '@eslint/js';
 import tsParser from "@typescript-eslint/parser";
 import reactHooks from "eslint-plugin-react-hooks";
 import eslintConfigPrettier from "eslint-config-prettier";
@@ -57,7 +56,6 @@ export default [
     }
   },
   pluginJs.configs.recommended,
-  eslint.configs.recommended,
   ...tseslint.configs.recommended,
   eslintConfigPrettier,
 ];
